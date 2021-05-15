@@ -32,3 +32,8 @@ public class SportsClub implements Serializable { //ai
     public String getclub_name() {
         return club_name;
     }
+
+    public     void setclub_name(String club_name) {
+
+        this.club_name = club_name;
+    }
