@@ -9,3 +9,10 @@ public class SportsClub implements Serializable { //ai
     public SportsClub(){
 
     }
+
+
+    public SportsClub(String club_name, String location_club) {
+        this.club_name = club_name;
+        this.location_club = location_club;
+
+    }
