@@ -24,3 +24,11 @@ public class SportsClub implements Serializable { //ai
         SportsClub club = (SportsClub) o;
         return Objects.equals(club_name, club.club_name);
     }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(club_name, location_club);
+    }
+    public String getclub_name() {
+        return club_name;
+    }
