@@ -16,3 +16,11 @@ public class SportsClub implements Serializable { //ai
         this.location_club = location_club;
 
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SportsClub club = (SportsClub) o;
+        return Objects.equals(club_name, club.club_name);
+    }
