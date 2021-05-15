@@ -42,3 +42,9 @@ public class SportsClub implements Serializable { //ai
 
         return location_club;
     }
+
+    public  void setlocation_club(String location_club) {
+      this.location_club = location_club;
+    }
+
+}
