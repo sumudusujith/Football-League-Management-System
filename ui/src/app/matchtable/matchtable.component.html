@@ -1,0 +1,32 @@
+<div class="matchTable">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Home club name</th>
+                <th>Away club name</th>
+                <th>Home club goals</th>
+                <th>Away club goals</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <tbody *ngIf="matchtabs">
+            <tr *ngFor="let matchtab of matchtabs" class="active-row">
+                <td>{{matchtab.homeTeam}}</td>
+                <td>{{matchtab.awayTeam}}</td>
+                <td>{{matchtab.homeTeamGoals}}</td>
+                <td>{{matchtab.awayTeamGoals}}</td>
+                <td>{{matchtab.date.day}}/{{matchtab.date.month}}/{{matchtab.date.year}}</td>
+            </tr>
+            <!-- and so on... -->
+        </tbody>
+    </table>
+    <form class="form-inline">
+        <input type="text" id="date1" placeholder="DD" name="date">
+        <input type="text" id="month1" placeholder="MM" name="month">
+        <input type="text" id="year1" placeholder="YYYY" name="year">
+        <button type="submit">search</button>
+        <button>clear</button>
+        <button (click)="randomBtn()" type="button">Random</button>
+    </form>
+</div>

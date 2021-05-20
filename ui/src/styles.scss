@@ -1,0 +1,47 @@
+    /* You can add global styles to this file, and also import other style files */
+    /* Application-wide Styles */
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+    h1 {
+        color: rgb(206, 206, 206);
+        font-family: 'Arial Black', sans-serif;
+        font-weight: 400;
+        font-size: 200%;
+    }
+
+    h3,
+    h4 {
+        color: white;
+        font-family: 'Calibri', sans-serif;
+        font-weight: bold;
+        font-weight: 600;
+        font-size: 120%;
+        border: 5px solid rgb(28, 65, 90);
+        border-radius: 10px;
+        // padding: 5px 10px;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-image: url(assets/images/pic11.jpg);
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+    }
+
+    body,
+    input[type="text"],
+    button {
+        color: #333;
+        font-family: 'Nunito', sans-serif;
+    }
+    /* everywhere else */
+
+    * {
+        font-family: 'Nunito', sans-serif;
+        list-style: none;
+        box-sizing: border-box;
+    }

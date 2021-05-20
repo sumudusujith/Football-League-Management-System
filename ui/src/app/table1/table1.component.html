@@ -1,0 +1,33 @@
+<div class="table-content">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Club name</th>
+                <th>Mp</th>
+                <th>Pts</th>
+                <th>Wins</th>
+                <th>Draws</th>
+                <th>Loses</th>
+                <th>GF</th>
+                <th>GA</th>
+            </tr>
+        </thead>
+        <tbody *ngIf="tabloopes">
+            <tr *ngFor="let tabloop of tabloopes" class="active-row">
+                <td>{{tabloop.name}}</td>
+                <td>{{tabloop.playedMatches}}</td>
+                <td>{{tabloop.points}}</td>
+                <td>{{tabloop.wins}}</td>
+                <td>{{tabloop.draws}}</td>
+                <td>{{tabloop.loss}}</td>
+                <td>{{tabloop.gF}}</td>
+                <td>{{tabloop.gA}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>Sort By:
+        <button (click)="sortByGoals()" class=" btn1 ">Goals</button>
+        <button (click)="sortByWins()" class=" btn1 ">wins</button>
+        <button (click)="sortByPts()" class="btn1 ">Statics</button>
+    </div>
+</div>
