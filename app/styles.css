@@ -1,0 +1,105 @@
+#btn1
+{
+    -fx-background-color: #000033;
+    -fx-text-fill: #4dff88;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:18px;
+    -fx-font-weight:bold ;
+}
+
+#btn1_selected
+{
+    -fx-border-color:#000;
+    -fx-border-width: 2px;
+    -fx-background-color: #ffff;
+    -fx-text-fill: #4dff88;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:18px;
+    -fx-font-weight:bold ;
+    -fx-border-radius: 3px;
+}
+
+#btn2{
+    -fx-background-color: #000033;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:16px;
+    -fx-font-weight:bold ;
+}
+
+#btn2_selected{
+    -fx-border-color:#fff;
+    -fx-border-width: 2px;
+    -fx-background-color: #000033;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:16px;
+    -fx-font-weight:bold;
+    -fx-background-radius: 4px;
+}
+
+#btn3{
+    -fx-background-color: #000033;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:16px;
+    -fx-font-weight:bold ;
+}
+
+#btn3_selected{
+    -fx-border-width: 2px;
+    -fx-border-color:#fff;
+    -fx-background-color: #000033;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:16px;
+    -fx-font-weight:bold ;
+    -fx-border-radius: 3px;
+}
+
+#txt1{
+    -fx-font-family: "Agency FB";
+    -fx-font-size:16px;
+    -fx-font-weight:bold ;
+}
+
+#lable1{
+    -fx-font-family: "Agency FB";
+    -fx-text-fill: #ffffff ;
+    -fx-font-size:24px;
+    -fx-font-weight:bold ;
+}
+
+#lable2{
+    -fx-font-family: "Agency FB";
+    -fx-text-fill: #ffffff ;
+    -fx-font-size:18px;
+    -fx-font-weight:bold ;
+}
+
+#p1{
+    -fx-background-color: #4dff88;
+}
+
+#p2{
+    -fx-background-color: #4dff88;
+}
+
+#p3{
+    -fx-background-color: #4dff88;
+}
+#tab1{
+    -fx-background-color:#ffffff;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:16px;
+    -fx-font-weight:bold ;
+    -fx-background-radius: 4px;
+}
+
+#tab2{
+    -fx-background-color:#ffffff;
+    -fx-font-family: "Agency FB";
+    -fx-font-size:16px;
+    -fx-font-weight:bold ;
+    -fx-background-radius: 4px;
+}
