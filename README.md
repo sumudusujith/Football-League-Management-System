@@ -3,7 +3,7 @@ This repo contains files for the project that was completed under the Object Ori
 
 ## Screenshots
 ![League Table](https://github.com/sumudusujith/Football-League-Management-System/blob/722aa019aa494731cbdd9d31cfc92af18463c09e/app/pictures/leagueTable.png)
-![Matches  Table](ss.zip/matches.png)
+![Matches  Table](https://github.com/sumudusujith/Football-League-Management-System/blob/f70ec145381bf14340c5cd84fd5fc5ac4faaa23a/app/pictures/matches.png)
 
 
 # Java Play Angular Boilerplate
