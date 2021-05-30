@@ -2,7 +2,7 @@
 This repo contains files for the project that was completed under the Object Oriented Programming Module in the 2nd year at IIT.
 
 ## Screenshots
-![League Table](ss.zip/leagueTable.png)
+![League Table](https://github.com/sumudusujith/Football-League-Management-System/blob/722aa019aa494731cbdd9d31cfc92af18463c09e/app/pictures/leagueTable.png)
 ![Matches  Table](ss.zip/matches.png)
 
 
