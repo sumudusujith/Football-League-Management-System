@@ -2,8 +2,8 @@
 This repo contains files for the project that was completed under the Object Oriented Programming Module in the 2nd year at IIT.
 
 ## Screenshots
-![League Table](ss/leagueTable.png)
-![Matches  Table](ss/matches.png)
+![League Table](ss.zip/leagueTable.png)
+![Matches  Table](ss.zip/matches.png)
 
 
 # Java Play Angular Boilerplate
